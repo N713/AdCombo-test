@@ -151,10 +151,32 @@
   min-height: 200px;
   background-color: $green;
   margin-bottom: 30px;
+  transition: background-color 0.5s;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    background-color: darken($green, 15);
+  }
+
+  &:active {
+    background-color: darken($green, 35);
+  }
 }
 
 .main__list-item--blue a {
   background-color: $blue;
+  transition: background-color 0.5s;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    background-color: darken($blue, 15);
+  }
+
+  &:active {
+    background-color: darken($blue, 35);
+  }
 }
 
 .main__list-item h3 {
@@ -188,6 +210,17 @@
   text-transform: uppercase;
   margin: 0 auto;
   margin-top: 65px;
+  transition: background-color 0.5s;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    background-color: darken($purple, 15);
+  }
+
+  &:active {
+    background-color: darken($purple, 20);
+  }
 }
 
 .main__list-item:nth-of-type(2n) + .main__list-button {
@@ -305,6 +338,13 @@
     margin: 0;
     margin-bottom: 20px;
     width: 100%;
+    max-width: 100%;
+  }
+
+  .main__banner-description h2,
+  .main__banner-description p {
+    width: 100%;
+    text-align: center;
   }
 
   .main__list-item {
