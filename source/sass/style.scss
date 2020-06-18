@@ -1,14 +1,10 @@
 @import "fonts";
-@import "mixins";
 @import "variables";
 @import "base";
 @import "blocks/visually-hidden";
+@import "blocks/container";
 @import "blocks/header";
+@import "blocks/features";
+@import "blocks/list";
 @import "blocks/main";
-@import "blocks/request-field";
-@import "blocks/navigation";
-@import "blocks/articles";
-@import "blocks/guides";
-@import "blocks/community";
-@import "blocks/help";
 @import "blocks/footer";

@@ -1,0 +1,195 @@
+.main {
+  width: 100%;
+  padding: 31px 0;
+}
+
+.main__container {
+  box-sizing: border-box;
+  max-width: $maxWidth;
+  padding: 0 50px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main__container-inner {
+  max-width: 730px;
+  width: (730 / 1100) * 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: 70px;
+}
+
+.main__container aside {
+  width: (267 / 1200) * 100%;
+  max-width: 270px;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 100%;
+  background-color: $purple;
+  position: absolute;
+}
+
+.main__banner {
+  background-color: $green;
+  box-sizing: border-box;
+  padding-left: 35px;
+  padding-right: 147px;
+  margin-bottom: 45px;
+  position: relative;
+}
+
+.main__banner a,
+.main__banner-description,
+.main__banner-counter {
+  display: inline-block;
+}
+
+.main__banner-description {
+  margin-left: 12px;
+}
+
+.main__banner-description h2,
+.main__banner-description p {
+  margin: 0;
+  font-family: $myriadPro;
+  font-size: 18px;
+}
+
+.main__banner-description h2 {
+  margin-bottom: 15px;
+}
+
+.main__banner a {
+  box-sizing: border-box;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: $purple;
+  margin-top: 35px;
+}
+
+.main__banner-description {
+  max-width: 406px;
+  width: 68%;
+  vertical-align: top;
+  padding-top: 24px;
+  padding-bottom: 56px;
+}
+
+.main__banner-counter {
+  width: 137px;
+  position: absolute;
+  height: 100%;
+  right: 0;
+  background-color: $purple;
+}
+
+.main__banner-list {
+  box-sizing: border-box;
+  padding: 17px 0;
+}
+
+.main__banner-list-item {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin-bottom: 25px;
+}
+
+.main__banner-list-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.main__banner-list-item h3,
+.main__banner-list-item p {
+  margin: 0;
+  color: #ffffff;
+  font-family: $myriadPro;
+  font-size: 18px;
+}
+
+.main__banner-list-item p {
+  margin-bottom: 15px;
+}
+
+.main__banner-list-item h3 {
+  position: relative;
+}
+
+.main__banner-list-item h3::after {
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  left: 22px;
+}
+
+.main__list {
+  vertical-align: top;
+}
+
+.main__list-item {
+  width: (350 / 730) * 100%;
+  display: inline-block;
+  padding-bottom: 20px;
+  margin-bottom: 38px;
+  vertical-align: top;
+}
+
+.main__list-item:nth-of-type(2n-1) {
+  margin-right: 3.4%;
+}
+
+.main__list-item a {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+  background-color: $green;
+  margin-bottom: 30px;
+}
+
+.main__list-item--blue a {
+  background-color: $blue;
+}
+
+.main__list-item h3 {
+  margin: 0;
+  margin-bottom: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.main__list-item p {
+  width: 100%;
+  font-size: 14px;
+  margin: 0;
+}
+
+.main__list-button {
+  width: (350 / 730) * 100%;
+  display: inline-block;
+}
+
+.main__list-button button {
+  display: block;
+  width: 250px;
+  height: 70px;
+  border-radius: 5px;
+  border: none;
+  background-color: $purple;
+  font-family: $myriadPro;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 65px;
+}
+
+.main__list-item:nth-of-type(2n) + .main__list-button {
+  width: 100%;
+}

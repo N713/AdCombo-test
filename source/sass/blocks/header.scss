@@ -1,0 +1,13 @@
+.header {
+  max-width: $maxWidth;
+  padding: 60px 50px;
+  margin: 0 auto;
+  margin-bottom: 53px;
+}
+
+.header__logo {
+  display: block;
+  width: 280px;
+  min-height: 112px;
+  background-color: $blue;
+}

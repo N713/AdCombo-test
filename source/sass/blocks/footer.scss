@@ -1,0 +1,15 @@
+.footer {
+  box-sizing: border-box;
+  background-color: $grey;
+  min-height: 300px;
+  padding-top: 156px;
+  padding-bottom: 50px;
+}
+
+.footer p {
+  margin: 0;
+  color: $dark;
+  text-align: center;
+  font-size: 13px;
+  padding: 0 20px;
+}
