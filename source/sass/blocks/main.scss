@@ -269,3 +269,53 @@
     width: 100%;
   }
 }
+
+@media (max-width: $mobileResolution) {
+  .main__container {
+    padding: 0 20px;
+    position: relative;
+  }
+
+  .main__container aside {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .main__container-inner {
+    margin-right: 0;
+    width: 100%;
+    padding-top: 200px;
+  }
+
+  .main__banner a {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .main__banner-description {
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .main__list-item {
+    width: 100%;
+  }
+
+  .main__list-button {
+    width: 100%;
+  }
+
+  .main__list-button button {
+    margin-top: 0;
+  }
+}

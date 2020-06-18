@@ -22,3 +22,15 @@
     min-height: 90px;
   }
 }
+
+@media (max-width: $mobileResolution) {
+  .header {
+    padding: 30px 20px;
+    margin-bottom: 20px;
+  }
+
+  .header__logo {
+    width: 160px;
+    min-height: 60px;
+  }
+}
