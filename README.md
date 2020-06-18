@@ -1,13 +1,13 @@
-# Short instruction
-## To start your work you shall have:
+# Краткая инструкция
+## Для начала работы должны быть установлены:
 * Node.js v.10.15.3
 * Gulp v4
 * npm last version
-## Main commands:
-* Installation - `npm i`
-* Start of local server - `npm start`
-* Building project without starting a local server - `npm run-script build`
-* Start testing for guides match - `npm test`
+## Основные команды:
+* Установка - `npm i`
+* Запуск локального сервера - `npm start`
+* Сборка билда без запуска локального сервера - `npm run build`
+* Тестирование на совпадение по гайдам - `npm test`
 
-## All development does in directory `source`
-## Final code goes to directory `build`
+## Вся разработка ведется в папке `source`
+## Итоговый код попадает в папку `build`
