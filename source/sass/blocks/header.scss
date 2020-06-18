@@ -11,3 +11,14 @@
   min-height: 112px;
   background-color: $blue;
 }
+
+@media (max-width: $tabletResolution) {
+  .header {
+    padding: 30px 40px;
+  }
+
+  .header__logo {
+    width: 230px;
+    min-height: 90px;
+  }
+}
